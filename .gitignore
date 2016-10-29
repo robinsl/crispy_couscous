@@ -1,2 +1,9 @@
+# JetBrains
 **/.idea/workspace.xml
 **/.idea/tasks.xml
+
+# Django
+db.sqlite3
+
+# Migrations (temporary)
+**/migrations/**
