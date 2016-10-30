@@ -1,0 +1,10 @@
+<h1>Pet Search</h1>
+<h2>Homepage - Pets listing</h2>
+
+{% for pet in pets %}
+    <div class="pet-view">
+        <h3>{{ pet.name }}</h3>
+
+        <p>{{ pet.description }}</p>
+    </div>
+{% endfor %}
